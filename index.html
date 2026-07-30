@@ -2,523 +2,574 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title>프렌즈스크린 원주일산점 | 프리미엄 스크린골프</title>
-<meta name="description" content="프렌즈스크린 원주일산점 - 원주 최고의 프리미엄 스크린골프. 고화질 스크린, 합리적인 가격, 넓은 주차장. 강원 원주시 단구로37번길 23.">
-<meta name="keywords" content="프렌즈스크린, 원주일산점, 스크린골프, 원주스크린골프, 카카오프렌즈골프">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>프렌즈스크린 원주일산점 | 원주 스크린골프</title>
+<meta name="description" content="원주 중심부 스크린골프 프렌즈스크린 원주일산점. 티업비젼 5대, 하우스채 무료 대여, 무료 주차 30대 이상, 새벽 1시까지 영업. 강원 원주시 단구로37번길 23.">
+<meta name="keywords" content="프렌즈스크린, 원주일산점, 원주스크린골프, 스크린골프, 원주 골프연습장, 카카오프렌즈골프">
+<meta name="author" content="프렌즈스크린 원주일산점">
+<link rel="canonical" href="https://www.xn--sm2b23av6ld5bv7hr3aw3a47c59aby4br2l.kr/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="프렌즈스크린 원주일산점 | 프리미엄 스크린골프">
-<meta property="og:description" content="프렌즈스크린 원주일산점 - 원주 최고의 프리미엄 스크린골프. 고화질 스크린, 합리적인 가격, 넓은 주차장. 강원 원주시 단구로37번길 23.">
+<meta property="og:site_name" content="프렌즈스크린 원주일산점">
+<meta property="og:title" content="프렌즈스크린 원주일산점 | 원주 스크린골프">
+<meta property="og:description" content="티업비젼 5대 · 하우스채 무료 대여 · 무료 주차 30대 이상 · 새벽 1시까지. 원주 어디서든 15분 이내.">
+<meta property="og:url" content="https://www.xn--sm2b23av6ld5bv7hr3aw3a47c59aby4br2l.kr/">
+<meta property="og:image" content="assets/lounge-green.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#16110d">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <style>
 :root{
-  --bg:#000;
-  --bg-2:#050505;
-  --card:#0e0e0e;
-  --card-2:#111;
-  --line:#2b2b2b;
-  --line-2:#333;
-  --accent:#fcdc35;
-  --accent-dim:rgba(252,220,53,.12);
-  --text:#ededed;
-  --muted:#9a9a9a;
-  --muted-2:#6f6f6f;
-  --maxw:1200px;
-  --radius:16px;
+  --bg:#14100c;
+  --bg-2:#241b13;
+  --card:#2b2118;
+  --card-2:#332719;
+  --line:#3a3027;
+  --line-2:#4b3f31;
+  --gold:#d9b877;
+  --gold-lo:#c9a25e;
+  --brand:#fee500;        /* 프렌즈스크린(카카오) 브랜드 노랑 — 로고 마크에만 사용 */
+  --gold-dim:rgba(217,184,119,.12);
+  --text:#f6f1e8;
+  --text-2:#c9bfb1;
+  --muted:#a89b8a;
+  --muted-2:#7a6f61;
+  --maxw:1160px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:hidden}
 body{
   background:var(--bg);color:var(--text);
-  font-family:"Noto Sans KR","Pretendard",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif;
-  -webkit-font-smoothing:antialiased;overflow-x:hidden;line-height:1.6;
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif;
+  -webkit-font-smoothing:antialiased;line-height:1.65;letter-spacing:-.01em;
 }
 a{color:inherit;text-decoration:none}
 ul{list-style:none}
 img{display:block;max-width:100%}
+button,input,select{font-family:inherit}
+[hidden]{display:none!important}
+h1,h2,h3,h4{font-weight:800;letter-spacing:-.035em;line-height:1.22}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
-.display{font-family:"Black Han Sans","Noto Sans KR",sans-serif;font-weight:400;letter-spacing:-.01em;line-height:1.15}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 
-/* decorative blobs */
-.blob{position:absolute;border-radius:50%;background:var(--accent);filter:blur(0px);opacity:.06;pointer-events:none;z-index:0}
+/* ── 필름 그레인 (외부 파일 없음, 용량 0) ── */
+.grain{
+  position:fixed;inset:0;z-index:200;pointer-events:none;opacity:.055;
+  mix-blend-mode:overlay;background-size:170px 170px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='170' height='170'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='170' height='170' filter='url(%23n)'/%3E%3C/svg%3E");
+}
 
-/* ---------- HEADER ---------- */
-header{
-  position:fixed;inset:0 0 auto 0;z-index:100;
-  background:rgba(10,10,10,.86);backdrop-filter:blur(14px);
-  border-bottom:1px solid rgba(255,255,255,.06);
-}
-.hd{display:flex;align-items:center;justify-content:space-between;height:68px}
-.logo{display:flex;align-items:center;gap:10px}
-.logo-mark{
-  width:30px;height:30px;border-radius:9px;background:var(--accent);color:#111;
-  display:grid;place-items:center;font-family:"Black Han Sans",sans-serif;font-size:17px;
-}
-.logo-txt strong{display:block;font-size:14px;font-weight:700;letter-spacing:-.02em}
-.logo-txt span{display:block;font-size:11px;color:var(--accent);letter-spacing:-.01em}
-nav ul{display:flex;gap:34px}
-nav a{font-size:14px;color:#cfcfcf;transition:color .2s}
-nav a:hover{color:var(--accent)}
-.tel-btn{
-  display:inline-flex;align-items:center;gap:8px;
-  border:1px solid var(--accent);color:var(--accent);
-  padding:9px 18px;border-radius:999px;font-size:14px;font-weight:700;
-  transition:background .2s,color .2s;
-}
-.tel-btn:hover{background:var(--accent);color:#111}
-.burger{display:none;background:none;border:0;color:var(--text);font-size:22px;cursor:pointer}
+/* ── 전면 사진 띠 ── */
+.band{position:relative;height:360px;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center}
+.band>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.band::after{content:"";position:absolute;inset:0;background:rgba(16,12,9,.74)}
+.band .bin{position:relative;z-index:2;padding:0 24px;max-width:780px}
+.band i{display:block;font-style:normal;font-size:11.5px;letter-spacing:.26em;color:var(--gold);font-weight:600;margin-bottom:16px}
+.band p{font-size:clamp(20px,3.1vw,32px);font-weight:800;letter-spacing:-.035em;line-height:1.38}
+.band p span{color:var(--gold)}
+.band small{display:block;font-size:15px;color:var(--text-2);font-weight:400;letter-spacing:-.01em;margin-top:14px}
+.band .btn-gold{margin-top:26px}
 
-/* ---------- HERO ---------- */
-.hero{position:relative;min-height:100vh;display:flex;align-items:center;padding:120px 0 90px;overflow:hidden}
-.hero .blob{width:420px;height:420px;left:-160px;bottom:-120px}
-.hero-inner{position:relative;z-index:2;max-width:760px}
-.badges{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
-.badge{
-  display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:700;
-  padding:7px 14px;border-radius:999px;
-}
-.badge.b1{background:var(--accent-dim);color:var(--accent);border:1px solid rgba(252,220,53,.35)}
-.badge.b2{background:rgba(255,255,255,.07);color:#d8d8d8;border:1px solid rgba(255,255,255,.12)}
-.hero h1{font-size:clamp(46px,7.4vw,92px);margin-bottom:24px}
-.hero h1 .y{color:var(--accent);display:block}
-.hero .lead{font-size:clamp(17px,2vw,21px);color:#dcdcdc;margin-bottom:8px}
-.hero .lead-2{font-size:15.5px;color:var(--muted);margin-bottom:36px}
-.cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:34px}
-.btn{
-  display:inline-flex;align-items:center;gap:9px;
-  padding:15px 30px;border-radius:999px;font-size:15px;font-weight:700;
-  transition:transform .18s,background .2s,color .2s;
-}
-.btn:hover{transform:translateY(-2px)}
-.btn-primary{background:var(--accent);color:#111}
-.btn-ghost{border:1px solid rgba(255,255,255,.28);color:#fff}
-.btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
-.hours-note{display:flex;align-items:center;gap:9px;font-size:13.5px;color:var(--muted)}
-.dot{width:6px;height:6px;border-radius:50%;background:var(--accent)}
-.scroll-ind{
-  position:absolute;left:50%;bottom:38px;transform:translateX(-50%);
-  z-index:2;text-align:center;font-size:10.5px;letter-spacing:.22em;color:var(--muted-2);
-}
-.scroll-ind span{display:block;margin-top:6px;animation:bob 1.8s ease-in-out infinite}
-@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
+/* ── HEADER ───────────────────────────── */
+header{position:sticky;top:0;z-index:60;background:rgba(22,17,13,.9);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.055)}
+.hd{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:11px}
+.logo-mark{width:34px;height:34px;border-radius:9px;background:var(--brand);color:#2b2405;display:grid;place-items:center;font-size:16px;font-weight:800;flex:0 0 34px}
+.logo b{display:block;font-size:15px;font-weight:700;letter-spacing:-.02em}
+.logo i{display:block;font-style:normal;font-size:11.5px;color:var(--muted);letter-spacing:.02em}
+nav ul{display:flex;gap:30px}
+nav a{font-size:14.5px;color:var(--text-2);font-weight:500;transition:color .2s}
+nav a:hover{color:var(--gold)}
+.hd-r{display:flex;align-items:center;gap:14px}
+.hd-tel{font-size:15px;font-weight:700;text-align:right}
+.hd-tel small{display:block;font-size:11px;color:var(--muted-2);font-weight:400;letter-spacing:.03em}
+.burger{display:none;background:none;border:0;color:var(--text);font-size:22px;cursor:pointer;line-height:1}
 
-/* ---------- SECTION SHELL ---------- */
-section{position:relative;padding:110px 0}
-.eyebrow{display:flex;align-items:center;gap:14px;margin-bottom:18px}
-.eyebrow i{display:block;width:44px;height:2px;background:var(--accent)}
-.eyebrow span{font-size:12px;font-weight:700;letter-spacing:.2em;color:var(--accent)}
-.sec-title{font-size:clamp(32px,4.4vw,48px);margin-bottom:14px}
-.sec-sub{color:var(--muted);font-size:15.5px;margin-bottom:62px}
+/* ── HERO ─────────────────────────────── */
+.hero{position:relative;min-height:92vh;display:flex;flex-direction:column;overflow:hidden}
+.hero-img{position:absolute;inset:0}
+.hero-img img{width:100%;height:100%;object-fit:cover}
+.hero-img::after{
+  content:"";position:absolute;inset:0;
+  background:
+    linear-gradient(to right,rgba(14,10,7,.9) 0%,rgba(14,10,7,.68) 46%,rgba(14,10,7,.44) 100%),
+    linear-gradient(to top,rgba(14,10,7,.66) 0%,rgba(14,10,7,0) 36%);
+}
+.hero-body{position:relative;z-index:2;flex:1;display:flex;align-items:center;padding:74px 0}
+.hero-in{max-width:740px}
+.kicker{font-size:11.5px;letter-spacing:.28em;color:var(--gold);font-weight:600;margin-bottom:20px}
+.hero h1{font-size:clamp(33px,5.4vw,62px);margin-bottom:22px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero .sub{font-size:clamp(15px,1.7vw,17.5px);color:var(--text-2);margin-bottom:36px}
+.hero .sub b{color:var(--text);font-weight:600}
+.cta{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.btn-gold{display:inline-flex;align-items:center;gap:9px;background:var(--gold);color:#2a2117;font-size:15.5px;font-weight:700;padding:16px 34px;border-radius:4px;border:0;cursor:pointer;transition:transform .18s,filter .2s}
+.btn-gold:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.tel-inline{font-size:15px;color:#e3d9c9;border-bottom:1px solid var(--muted-2);padding-bottom:3px;transition:.2s}
+.tel-inline:hover{border-color:var(--gold);color:var(--gold)}
+.hero-meta{position:relative;z-index:3;border-top:1px solid rgba(255,255,255,.1);background:rgba(14,10,7,.6);backdrop-filter:blur(8px)}
+.hero-meta ul{display:grid;grid-template-columns:repeat(4,1fr)}
+.hero-meta li{padding:20px 8px;text-align:center;font-size:13.5px;color:var(--text-2)}
+.hero-meta li+li{border-left:1px solid rgba(255,255,255,.08)}
+.hero-meta strong{display:block;font-size:19px;font-weight:800;color:var(--text);margin-bottom:2px;letter-spacing:-.02em}
 
-/* ---------- FACILITY ---------- */
-#facility .blob{width:340px;height:340px;right:-90px;top:150px}
-.fac-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;margin-bottom:72px}
-.fac-photo{position:relative;border-radius:22px;overflow:hidden;border:1px solid var(--line)}
-.fac-photo img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3}
-.photo-tags{position:absolute;left:18px;bottom:18px;display:flex;gap:8px}
-.tag{font-size:11.5px;font-weight:700;padding:6px 12px;border-radius:999px}
-.tag.on{background:var(--accent);color:#111}
-.tag.off{background:rgba(255,255,255,.14);color:#fff;backdrop-filter:blur(6px)}
-.fac-copy h3{font-size:clamp(24px,3vw,32px);margin-bottom:20px}
-.fac-copy h3 .y{color:var(--accent);display:block}
-.fac-copy p{color:#b8b8b8;font-size:15.5px;margin-bottom:16px}
-.fac-copy b{color:var(--accent);font-weight:700}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 10px;text-align:center}
-.stat strong{display:block;font-family:"Black Han Sans",sans-serif;font-size:28px;color:var(--accent);margin-bottom:4px}
-.stat span{font-size:12.5px;color:var(--muted)}
-.feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.feat{
-  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px 26px;
-  transition:border-color .25s,transform .25s;
-}
-.feat:hover{border-color:rgba(252,220,53,.5);transform:translateY(-4px)}
-.ico{
-  width:46px;height:46px;border-radius:13px;background:var(--accent-dim);
-  display:grid;place-items:center;margin-bottom:18px;
-}
-.ico svg{width:22px;height:22px;stroke:var(--accent);fill:none;stroke-width:1.9}
-.feat h4{font-family:"Black Han Sans",sans-serif;font-weight:400;font-size:18px;margin-bottom:10px}
-.feat p{font-size:14px;color:var(--muted);line-height:1.65}
+/* ── SECTION ──────────────────────────── */
+section{padding:112px 0;position:relative}
+.eyebrow{font-size:11.5px;letter-spacing:.26em;color:var(--gold);font-weight:600;margin-bottom:16px}
+.sec-t{font-size:clamp(27px,3.6vw,40px);margin-bottom:14px}
+.sec-s{color:var(--muted);font-size:15.5px}
 
-/* ---------- GALLERY ---------- */
-#gallery{background:var(--bg-2)}
-#gallery .blob{width:300px;height:300px;left:-110px;top:60px}
-.slider{position:relative;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--card)}
-.slides{position:relative;aspect-ratio:16/9;background:#000}
-.slide{position:absolute;inset:0;opacity:0;transition:opacity .7s ease}
-.slide.active{opacity:1}
-.slide img{width:100%;height:100%;object-fit:cover}
-.slide .shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.92) 0%,rgba(0,0,0,.15) 55%,transparent 100%)}
-.cap{position:absolute;left:32px;right:32px;bottom:28px;z-index:2}
-.cap .tag{display:inline-block;margin-bottom:12px}
-.cap h4{font-family:"Black Han Sans",sans-serif;font-weight:400;font-size:clamp(20px,2.6vw,26px);margin-bottom:8px}
-.cap p{font-size:14.5px;color:#c4c4c4}
-.arrow{
-  position:absolute;top:50%;transform:translateY(-50%);z-index:5;
-  width:40px;height:40px;border-radius:50%;border:0;cursor:pointer;
-  background:rgba(255,255,255,.14);color:#fff;font-size:17px;
-  display:grid;place-items:center;backdrop-filter:blur(6px);transition:background .2s;
-}
-.arrow:hover{background:var(--accent);color:#111}
-.arrow.prev{left:18px}
-.arrow.next{right:18px}
-.counter{position:absolute;right:32px;bottom:34px;z-index:3;font-size:13px;color:var(--muted)}
-.thumbs{display:flex;align-items:center;gap:12px;padding:18px 22px;border-top:1px solid var(--line)}
-.thumb{width:70px;height:52px;border-radius:8px;overflow:hidden;border:2px solid transparent;cursor:pointer;opacity:.55;transition:.2s;background:none;padding:0}
-.thumb img{width:100%;height:100%;object-fit:cover}
-.thumb.active{border-color:var(--accent);opacity:1}
-.pause-btn{
-  margin-left:auto;background:rgba(255,255,255,.1);border:0;color:#fff;cursor:pointer;
-  font-size:12.5px;font-weight:700;padding:9px 16px;border-radius:999px;font-family:inherit;
-}
-.dots{display:flex;justify-content:center;gap:7px;padding-bottom:18px}
-.dots button{width:7px;height:7px;border-radius:99px;border:0;background:#3a3a3a;cursor:pointer;padding:0;transition:.25s}
-.dots button.active{width:22px;background:var(--accent)}
+/* ── 시설: 좌우 교차 ──────────────────── */
+.alt{display:grid;grid-template-columns:1.05fr .95fr;gap:62px;align-items:center;margin-top:62px}
+.alt.flip .alt-img{order:2}
+.alt-img{border-radius:6px;overflow:hidden}
+.alt-img img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.alt h3{font-size:clamp(20px,2.5vw,27px);margin-bottom:16px}
+.alt p{color:var(--text-2);font-size:15.5px;margin-bottom:14px}
+.alt p b{color:var(--gold);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.chip{font-size:12.5px;color:#d6ccbc;border:1px solid var(--line-2);border-radius:2px;padding:7px 14px}
 
-/* ---------- HOW TO USE ---------- */
-#howto .blob{width:320px;height:320px;left:-120px;bottom:60px}
-.howto-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px}
-.steps{display:flex;flex-direction:column;gap:34px}
-.step{display:flex;gap:20px}
-.step .ico{flex:0 0 46px;margin-bottom:0}
-.step-no{font-size:12px;font-weight:700;color:var(--accent);margin-right:8px}
-.step h4{font-family:"Black Han Sans",sans-serif;font-weight:400;font-size:17px;margin-bottom:8px;display:flex;align-items:baseline}
-.step p{font-size:14px;color:var(--muted)}
-.side{display:flex;flex-direction:column;gap:22px}
-.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
-.panel h4{display:flex;align-items:center;gap:9px;font-family:"Black Han Sans",sans-serif;font-weight:400;font-size:17px;margin-bottom:20px}
-.panel h4 svg{width:18px;height:18px;stroke:var(--accent);fill:none;stroke-width:2}
-.hrow{display:flex;justify-content:space-between;align-items:center;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.07);font-size:14px}
-.hrow:last-of-type{border-bottom:0}
+/* ── 특징: 테두리 없는 분할 ───────────── */
+.feats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:84px;background:var(--line)}
+.feat{background:var(--bg);padding:38px 32px;transition:background .25s}
+.feat:hover{background:var(--card)}
+.feat i{display:block;font-style:normal;font-size:12px;letter-spacing:.2em;color:var(--gold);margin-bottom:16px;font-weight:600}
+.feat h4{font-size:17.5px;margin-bottom:10px}
+.feat p{font-size:14px;color:var(--muted);line-height:1.7}
+
+/* ── 갤러리 ───────────────────────────── */
+#gallery,#price,#location{background:var(--bg-2);border-top:1px solid rgba(255,255,255,.055);border-bottom:1px solid rgba(0,0,0,.35)}
+.gal{margin-top:56px}
+.gal-stage{position:relative;border-radius:6px;overflow:hidden;background:#000;aspect-ratio:16/9}
+.gslide{position:absolute;inset:0;opacity:0;transition:opacity .8s ease}
+.gslide.on{opacity:1}
+.gslide img{width:100%;height:100%;object-fit:cover}
+.gslide::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(16,12,9,.92),rgba(16,12,9,.05) 55%,transparent)}
+.gcap{position:absolute;left:34px;right:34px;bottom:30px;z-index:2}
+.gcap i{display:block;font-style:normal;font-size:11px;letter-spacing:.22em;color:var(--gold);font-weight:600;margin-bottom:9px}
+.gcap h4{font-size:clamp(18px,2.2vw,23px);margin-bottom:7px}
+.gcap p{font-size:14.5px;color:var(--text-2)}
+.garrow{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:42px;height:42px;border-radius:3px;border:1px solid rgba(255,255,255,.2);background:rgba(16,12,9,.5);color:#fff;font-size:17px;cursor:pointer;display:grid;place-items:center;backdrop-filter:blur(6px);transition:.2s}
+.garrow:hover{background:var(--gold);color:#2a2117;border-color:var(--gold)}
+.garrow.p{left:18px}.garrow.n{right:18px}
+.gbar{display:flex;align-items:center;gap:14px;margin-top:18px}
+.gbar .dots{display:flex;gap:7px;flex:1}
+.gbar .dots button{height:3px;flex:1;max-width:70px;border:0;background:var(--line-2);cursor:pointer;padding:0;transition:.3s}
+.gbar .dots button.on{background:var(--gold)}
+.gbar .cnt{font-size:13px;color:var(--muted-2);letter-spacing:.04em}
+.gbar .pz{background:none;border:1px solid var(--line-2);color:var(--muted);font-size:12px;padding:7px 13px;border-radius:2px;cursor:pointer;transition:.2s}
+.gbar .pz:hover{border-color:var(--gold);color:var(--gold)}
+
+/* ── 이용 안내 ────────────────────────── */
+.use{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;margin-top:60px}
+.steps{border-top:1px solid var(--line-2)}
+.step{display:grid;grid-template-columns:52px 1fr;gap:20px;padding:28px 0;border-bottom:1px solid var(--line)}
+.step .no{font-size:13px;font-weight:800;color:var(--gold);letter-spacing:.06em;padding-top:3px}
+.step h4{font-size:17px;margin-bottom:8px}
+.step p{font-size:14.5px;color:var(--muted);line-height:1.75}
+.panel{margin-bottom:34px}
+.panel h4{font-size:13px;letter-spacing:.14em;color:var(--gold);font-weight:600;margin-bottom:18px}
+.hrow{display:flex;justify-content:space-between;gap:14px;padding:13px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+.hrow:first-of-type{border-top:1px solid var(--line-2)}
 .hrow span:first-child{color:var(--muted)}
-.hrow span:last-child{font-weight:700;letter-spacing:.01em}
-.pill-note{display:flex;align-items:center;gap:9px;margin-top:14px;background:var(--accent-dim);border:1px solid rgba(252,220,53,.28);border-radius:10px;padding:11px 15px;font-size:13.5px;color:var(--accent);font-weight:700}
-.two-col{display:grid;grid-template-columns:1fr 1fr;gap:10px 20px}
-.two-col li,.check li{display:flex;align-items:flex-start;gap:8px;font-size:14px;color:#c9c9c9;padding:5px 0}
-.two-col li::before{content:"›";color:var(--accent);font-weight:700}
-.panel.hi{background:linear-gradient(160deg,rgba(252,220,53,.09),rgba(252,220,53,.02));border-color:rgba(252,220,53,.3)}
-.check li::before{content:"✓";color:var(--accent);font-weight:700}
+.hrow span:last-child{font-weight:600;letter-spacing:.01em}
+.tag-open{display:inline-block;margin-top:14px;font-size:13px;color:var(--gold);border:1px solid var(--gold-lo);border-radius:2px;padding:6px 13px}
+.reco{border-top:1px solid var(--line-2)}
+.reco li{font-size:14.5px;color:var(--text-2);padding:12px 0;border-bottom:1px solid var(--line);display:flex;gap:10px}
+.reco li::before{content:"—";color:var(--gold);flex:0 0 auto}
+.use-img{border-radius:6px;overflow:hidden;margin-bottom:34px}
+.use-img img{width:100%;aspect-ratio:21/9;object-fit:cover}
 
-/* ---------- PRICING ---------- */
-#pricing{background:var(--bg-2)}
-#pricing .blob{width:360px;height:360px;right:-140px;top:120px}
-.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.price-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px;position:relative}
-.price-card.best{border-color:rgba(252,220,53,.5);background:linear-gradient(165deg,rgba(252,220,53,.08),rgba(252,220,53,.01))}
-.price-card .rib{position:absolute;top:-11px;left:26px;background:var(--accent);color:#111;font-size:11px;font-weight:700;padding:4px 12px;border-radius:999px}
-.price-card h4{font-family:"Black Han Sans",sans-serif;font-weight:400;font-size:19px;margin-bottom:6px}
-.price-card .when{font-size:13px;color:var(--muted);margin-bottom:22px}
-.price-card .amt{font-family:"Black Han Sans",sans-serif;font-size:34px;color:var(--accent);margin-bottom:4px}
-.price-card .amt em{font-style:normal;font-family:"Noto Sans KR",sans-serif;font-size:14px;color:var(--muted);font-weight:400}
-.price-card ul{margin-top:20px;padding-top:18px;border-top:1px solid rgba(255,255,255,.08)}
-.price-card li{font-size:13.5px;color:#c2c2c2;padding:5px 0;display:flex;gap:8px}
-.price-card li::before{content:"·";color:var(--accent)}
-.todo{
-  margin-top:26px;border:1px dashed rgba(252,220,53,.45);border-radius:12px;
-  padding:16px 20px;font-size:13.5px;color:var(--accent);background:rgba(252,220,53,.05);
+/* ── 가격 ─────────────────────────────── */
+.ptable{margin-top:56px;border-top:1px solid var(--line-2)}
+.pgrp{display:grid;grid-template-columns:190px 1fr;gap:36px;padding:34px 0;border-bottom:1px solid var(--line)}
+.pgrp h4{font-size:18px}
+.pgrp h4 small{display:block;font-size:12.5px;color:var(--muted-2);font-weight:400;margin-top:4px;letter-spacing:0}
+.plist{display:grid;grid-template-columns:repeat(4,1fr);gap:18px 28px}
+.pitem .t{font-size:13px;color:var(--muted);margin-bottom:6px}
+.pitem .v{font-size:20px;font-weight:800;letter-spacing:-.02em}
+.pitem .v em{font-style:normal;font-size:13px;font-weight:400;color:var(--muted);margin-left:1px}
+.pgrp.hi .pitem .v{color:var(--gold)}
+.pnotes{display:flex;gap:34px;flex-wrap:wrap;margin-top:32px;font-size:14.5px;color:var(--text-2)}
+.pnotes b{color:var(--gold);font-weight:600}
+.pfoot{margin-top:20px;font-size:13px;color:var(--muted-2);line-height:1.9}
+
+/* ── 리뷰 ─────────────────────────────── */
+.score{display:flex;align-items:baseline;gap:11px;margin-top:22px}
+.score b{font-size:46px;font-weight:800;color:var(--gold);letter-spacing:-.035em;line-height:1}
+.score span{font-size:14.5px;color:var(--muted)}
+.rev-row{display:flex;gap:18px;overflow-x:auto;margin-top:46px;padding-bottom:16px;scroll-snap-type:x mandatory}
+.rev-row::-webkit-scrollbar{height:4px}
+.rev-row::-webkit-scrollbar-track{background:var(--line)}
+.rev-row::-webkit-scrollbar-thumb{background:var(--line-2)}
+.rev{flex:0 0 330px;scroll-snap-align:start;background:var(--card);border-radius:5px;padding:28px 26px;border-top:2px solid var(--gold)}
+.rev .st{color:var(--gold);font-size:12.5px;letter-spacing:2.5px;margin-bottom:14px}
+.rev .st em{font-style:normal;color:#5c5040}
+.rev p{font-size:14.5px;color:var(--text-2);line-height:1.8;margin-bottom:18px}
+.rev cite{font-style:normal;font-size:13px;color:var(--muted-2)}
+.rev-more{margin-top:34px}
+.rev-more a{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--text-2);border-bottom:1px solid var(--line-2);padding-bottom:4px;transition:.2s}
+.rev-more a:hover{color:var(--gold);border-color:var(--gold)}
+
+/* ── 오시는 길 ────────────────────────── */
+.loc{display:grid;grid-template-columns:1.12fr .88fr;gap:52px;margin-top:56px}
+.map{border-radius:6px;overflow:hidden;background:var(--card);position:relative;min-height:400px}
+.map iframe{width:100%;height:100%;min-height:400px;border:0;display:block}
+.map .ph{position:absolute;inset:0}
+.map .ph img{width:100%;height:100%;object-fit:cover;opacity:.32}
+.map .ph div{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px}
+.map .ph b{font-size:19px;font-weight:800;margin-bottom:8px}
+.map .ph span{font-size:14px;color:var(--text-2)}
+.map-hint{
+  position:absolute;left:0;right:0;bottom:0;z-index:4;
+  display:flex;align-items:center;justify-content:center;gap:8px;padding:15px;
+  background:rgba(14,10,7,.76);backdrop-filter:blur(6px);border-top:1px solid var(--line-2);
+  font-size:13.5px;font-weight:700;color:var(--gold);transition:.2s;
 }
-
-/* ---------- LOCATION ---------- */
-#location .blob{width:300px;height:300px;left:-120px;top:80px}
-.loc-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:36px}
-.map-box{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--card);min-height:380px;display:grid;place-items:center;position:relative}
-.map-box img{width:100%;height:100%;object-fit:cover;opacity:.42}
-.map-box .pin{position:absolute;text-align:center}
-.map-box .pin b{display:block;font-family:"Black Han Sans",sans-serif;font-weight:400;font-size:20px;margin-bottom:6px}
-.map-box .pin span{font-size:13px;color:#cfcfcf}
-.loc-info{display:flex;flex-direction:column;gap:16px}
-.info-row{display:flex;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
-.info-row svg{width:19px;height:19px;stroke:var(--accent);fill:none;stroke-width:2;flex:0 0 19px;margin-top:2px}
-.info-row .k{font-size:12px;color:var(--muted);margin-bottom:5px}
-.info-row .v{font-size:14.5px;font-weight:500;line-height:1.55}
-.near li{font-size:14px;color:#c9c9c9;padding:5px 0;display:flex;gap:8px}
-.near li::before{content:"›";color:var(--accent);font-weight:700}
-
-/* ---------- FOOTER ---------- */
-footer{background:#020202;border-top:1px solid rgba(255,255,255,.07);padding:64px 0 30px}
-.f-grid{display:grid;grid-template-columns:1.5fr 1fr 1.4fr;gap:44px;padding-bottom:44px}
-.f-about p{font-size:14px;color:var(--muted);line-height:1.85;margin-top:18px}
-.f-col h5{font-size:14px;font-weight:700;margin-bottom:20px}
-.f-col li{padding:6px 0}
-.f-col a{font-size:14px;color:var(--muted);transition:color .2s}
-.f-col a:hover{color:var(--accent)}
-.f-contact li{display:flex;gap:10px;align-items:flex-start;padding:7px 0;font-size:14px;color:var(--muted)}
-.f-contact svg{width:16px;height:16px;stroke:var(--accent);fill:none;stroke-width:2;flex:0 0 16px;margin-top:4px}
-.f-bot{border-top:1px solid rgba(255,255,255,.07);padding-top:24px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.f-bot p{font-size:12.5px;color:#5e5e5e}
-
-/* ---------- FLOATING ---------- */
-.float{position:fixed;right:22px;bottom:22px;z-index:90;display:flex;flex-direction:column;gap:10px}
-.float a{
-  width:56px;height:56px;border-radius:50%;display:grid;place-items:center;
-  font-size:13px;font-weight:700;box-shadow:0 6px 22px rgba(0,0,0,.5);transition:transform .2s;
+a.map:hover .map-hint{background:var(--gold);color:#2a2117;border-color:var(--gold)}
+.map-hint svg{width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:2.2}
+.loc-btns{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:26px}
+.loc-btns a,.loc-btns button{
+  display:flex;align-items:center;justify-content:center;gap:8px;padding:15px 12px;border-radius:4px;
+  font-size:14.5px;font-weight:700;cursor:pointer;transition:.2s;
+  border:1px solid var(--line-2);background:transparent;color:var(--text);
 }
-.float a:hover{transform:scale(1.07)}
-.float .res{background:var(--accent);color:#111}
-.float .ask{background:#fff;color:#111}
+.loc-btns .nv{background:#03c75a;border-color:#03c75a;color:#0a2e18}
+.loc-btns .nv:hover{filter:brightness(1.09)}
+.loc-btns button:hover{border-color:var(--gold);color:var(--gold)}
+.loc-btns svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2.2}
+.irow{display:grid;grid-template-columns:74px 1fr;gap:16px;padding:20px 0;border-bottom:1px solid var(--line)}
+.irow:first-child{border-top:1px solid var(--line-2)}
+.irow .k{font-size:12.5px;color:var(--gold);letter-spacing:.08em;font-weight:600;padding-top:3px}
+.irow .v{font-size:15px;line-height:1.7}
+.irow .v small{display:block;font-size:13px;color:var(--muted);margin-top:4px}
 
-/* ---------- REVEAL ---------- */
-.rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+/* ── FOOTER ───────────────────────────── */
+footer{background:#100c09;border-top:1px solid rgba(255,255,255,.06);padding:70px 0 34px}
+.f-top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:44px;padding-bottom:44px}
+.f-top p{font-size:14px;color:var(--muted);margin-top:18px;line-height:1.9}
+.f-top h5{font-size:12.5px;font-weight:600;color:var(--gold);letter-spacing:.12em;margin-bottom:18px}
+.f-top li{font-size:14px;color:var(--muted);padding:6px 0}
+.f-top li a:hover{color:var(--gold)}
+.f-tel{font-size:22px;font-weight:800;color:var(--text);letter-spacing:-.02em}
+.f-bot{border-top:1px solid rgba(255,255,255,.06);padding-top:24px;font-size:12.5px;color:#5d554a;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.f-brand{display:inline-flex;align-items:center;gap:8px;margin-top:22px;font-size:12.5px;color:var(--muted);letter-spacing:.01em}
+.f-brand span{width:7px;height:7px;border-radius:2px;background:var(--brand);flex:0 0 7px}
+
+/* ── FAB ──────────────────────────────── */
+.fab-back{position:fixed;inset:0;background:rgba(10,7,5,.6);opacity:0;visibility:hidden;transition:.28s;z-index:88;backdrop-filter:blur(2px)}
+.fab-back.on{opacity:1;visibility:visible}
+.fab{position:fixed;right:24px;bottom:24px;z-index:92;display:flex;flex-direction:column;align-items:flex-end;gap:13px}
+.fab-item{display:flex;align-items:center;gap:12px;opacity:0;visibility:hidden;transform:translateY(12px) scale(.9);transition:opacity .24s ease,transform .24s cubic-bezier(.34,1.56,.64,1),visibility .24s}
+.fab.on .fab-item{opacity:1;visibility:visible;transform:none}
+.fab.on .fab-item:nth-child(2){transition-delay:.05s}
+.fab.on .fab-item:nth-child(1){transition-delay:.1s}
+.fab-item .lbl{background:#241d16;border:1px solid var(--line-2);color:var(--text);font-size:13.5px;font-weight:600;padding:9px 16px;border-radius:3px;white-space:nowrap}
+.fab-item .cc{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;flex:0 0 52px;border:0;cursor:pointer;transition:transform .18s;background:var(--gold)}
+.fab-item .cc:hover{transform:scale(1.08)}
+.fab-item .cc svg{width:22px;height:22px;stroke:#2a2117;fill:none;stroke-width:2}
+.cc.k{background:#e0c48f}
+.fab-main{width:62px;height:62px;border-radius:50%;border:0;cursor:pointer;background:var(--gold);display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.5);transition:transform .3s cubic-bezier(.34,1.56,.64,1)}
+.fab-main svg{width:27px;height:27px;stroke:#2a2117;fill:none;stroke-width:2.3}
+.fab.on .fab-main{transform:rotate(135deg)}
+
+/* ── MODAL ────────────────────────────── */
+.modal{position:fixed;inset:0;z-index:120;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(10,7,5,.76);backdrop-filter:blur(6px);opacity:0;visibility:hidden;transition:.25s}
+.modal.on{opacity:1;visibility:visible}
+.sheet{width:100%;max-width:520px;max-height:92vh;overflow-y:auto;background:#1a140f;border:1px solid var(--line-2);border-radius:8px;transform:translateY(16px) scale(.985);transition:transform .3s cubic-bezier(.34,1.56,.64,1)}
+.modal.on .sheet{transform:none}
+.sh-hd{display:flex;align-items:center;justify-content:space-between;padding:26px 28px 20px;border-bottom:1px solid var(--line)}
+.sh-hd h3{font-size:23px}
+.xb{background:none;border:0;color:var(--muted);font-size:26px;line-height:1;cursor:pointer;padding:0 4px;transition:color .2s}
+.xb:hover{color:var(--text)}
+.sh-bd{padding:26px 28px}
+.note{background:var(--gold-dim);border-left:2px solid var(--gold);padding:14px 16px;font-size:13.5px;color:#d8c69f;line-height:1.7;margin-bottom:26px}
+.note b{color:var(--gold);font-weight:700}
+.fld{margin-bottom:20px}
+.fld label{display:block;font-size:13px;color:var(--gold);letter-spacing:.06em;font-weight:600;margin-bottom:9px}
+.fld input,.fld select{width:100%;background:#120e0a;border:1px solid var(--line-2);border-radius:4px;padding:15px 16px;font-size:15px;color:var(--text);transition:border-color .2s;appearance:none}
+.fld select{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a89b8a' stroke-width='2'><path d='M6 9l6 6 6-6'/></svg>");background-repeat:no-repeat;background-position:right 15px center;background-size:18px;padding-right:44px}
+.fld input:focus,.fld select:focus{outline:0;border-color:var(--gold)}
+.fld input::placeholder{color:#5c5245}
+.fld .err{color:#e08b76;font-size:12.5px;margin-top:7px;display:none}
+.fld.bad input,.fld.bad select{border-color:#e08b76}
+.fld.bad .err{display:block}
+.tail{border-top:1px solid var(--line);padding-top:18px;font-size:13.5px;color:var(--muted);line-height:1.75;margin-bottom:24px}
+.sh-ft{display:grid;grid-template-columns:1fr 1.5fr;gap:12px}
+.sh-ft button{padding:16px;border-radius:4px;font-size:15px;font-weight:700;cursor:pointer;border:0;transition:.2s}
+.b-c{background:transparent;border:1px solid var(--line-2)!important;color:var(--text-2)}
+.b-c:hover{border-color:var(--muted)!important}
+.msg-box{background:#120e0a;border:1px solid var(--line-2);border-radius:4px;padding:18px;font-size:13.5px;color:var(--text-2);line-height:1.85;white-space:pre-wrap;margin-bottom:20px}
+.done-t{text-align:center;font-size:20px;font-weight:800;margin-bottom:10px}
+.done-s{text-align:center;font-size:14px;color:var(--muted);line-height:1.75;margin-bottom:22px}
+.done-s b{color:var(--text)}
+.alt-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+.alt-row a,.alt-row button{display:flex;align-items:center;justify-content:center;padding:14px;border-radius:4px;font-size:14px;font-weight:600;cursor:pointer;background:transparent;border:1px solid var(--line-2);color:var(--text-2);transition:.2s}
+.alt-row a:hover,.alt-row button:hover{border-color:var(--gold);color:var(--gold)}
+
+/* ── REVEAL ───────────────────────────── */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
 .rv.in{opacity:1;transform:none}
+.no-anim .rv{opacity:1!important;transform:none!important}
+@media print{
+  .rv{opacity:1!important;transform:none!important}
+  .fab,.fab-back,.modal,header,.grain{display:none!important}
+  .gslide{opacity:1!important;position:relative}
+  .gal-stage{aspect-ratio:auto}
+  .band{height:240px}
+}
+@media (prefers-reduced-motion:reduce){
+  .rv{opacity:1!important;transform:none!important}
+  html{scroll-behavior:auto}
+}
 
-/* ---------- RESPONSIVE ---------- */
-@media (max-width:960px){
-  .fac-grid,.howto-grid,.loc-grid{grid-template-columns:1fr;gap:36px}
-  .feat-grid,.price-grid{grid-template-columns:1fr 1fr}
-  .f-grid{grid-template-columns:1fr 1fr}
+/* ── RESPONSIVE ───────────────────────── */
+@media (max-width:1000px){
+  .alt,.use,.loc{grid-template-columns:1fr;gap:36px}
+  .alt.flip .alt-img{order:0}
+  .feats{grid-template-columns:1fr 1fr}
+  .f-top{grid-template-columns:1fr 1fr}
+  .pgrp{grid-template-columns:1fr;gap:20px}
 }
 @media (max-width:720px){
   nav{display:none}
   .burger{display:block}
-  .tel-btn{padding:8px 13px;font-size:12.5px}
-  section{padding:78px 0}
-  .feat-grid,.price-grid,.two-col,.f-grid{grid-template-columns:1fr}
-  .stats{gap:10px}
-  .cap{left:20px;right:20px;bottom:20px}
-  .counter{right:20px;bottom:26px}
-  nav.open{display:block;position:absolute;top:68px;left:0;right:0;background:#0a0a0a;border-bottom:1px solid var(--line);padding:16px 24px}
-  nav.open ul{flex-direction:column;gap:4px}
-  nav.open a{display:block;padding:11px 0}
+  .hd-tel small{display:none}
+  section{padding:76px 0}
+  .feats,.plist{grid-template-columns:1fr 1fr}
+  .f-top{grid-template-columns:1fr;gap:32px}
+  .hero-body{padding:56px 0}
+  .hero{min-height:88vh}
+  .hero-meta ul{grid-template-columns:1fr 1fr}
+  .hero-meta li:nth-child(3){border-left:0}
+  .hero-meta li:nth-child(n+3){border-top:1px solid rgba(255,255,255,.08)}
+  .hero-meta li{padding:15px 8px;font-size:12.5px}
+  .hero-meta strong{font-size:17px}
+  .rev{flex:0 0 84%}
+  .gcap{left:20px;right:20px;bottom:20px}
+  .garrow{width:36px;height:36px}
+  .garrow.p{left:10px}.garrow.n{right:10px}
+  .irow{grid-template-columns:1fr;gap:6px}
+  .band{height:300px}
+  .grain{background-size:120px 120px}
+  .sh-hd{padding:22px 20px 16px}
+  .sh-bd{padding:22px 20px}
+  .fab{right:16px;bottom:16px}
+  .alt-row{grid-template-columns:1fr}
+  nav.open{display:block;position:absolute;top:72px;left:0;right:0;background:#1a140f;border-bottom:1px solid var(--line-2);padding:12px 24px}
+  nav.open ul{flex-direction:column;gap:0}
+  nav.open a{display:block;padding:13px 0;border-bottom:1px solid var(--line)}
 }
 </style>
+<noscript><style>.rv{opacity:1!important;transform:none!important}.fab,.fab-back,.modal,#bandBook,#heroBook{display:none!important}.gslide{opacity:1;position:relative}.gal-stage{aspect-ratio:auto}</style></noscript>
 </head>
 <body>
+
+<div class="grain" aria-hidden="true"></div>
 
 <header>
   <div class="wrap hd">
     <a href="#top" class="logo">
       <span class="logo-mark">F</span>
-      <span class="logo-txt"><strong>프렌즈스크린</strong><span>원주일산점</span></span>
+      <span><b>프렌즈스크린</b><i>원주일산점</i></span>
     </a>
     <nav id="nav">
       <ul>
-        <li><a href="#top">홈</a></li>
-        <li><a href="#facility">시설 소개</a></li>
+        <li><a href="#facility">시설</a></li>
+        <li><a href="#gallery">갤러리</a></li>
         <li><a href="#howto">이용 안내</a></li>
-        <li><a href="#pricing">가격 안내</a></li>
+        <li><a href="#price">가격</a></li>
+        <li><a href="#reviews">리뷰</a></li>
         <li><a href="#location">오시는 길</a></li>
       </ul>
     </nav>
-    <div style="display:flex;align-items:center;gap:10px">
-      <a class="tel-btn" href="tel:01048810542">
-        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8.1 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.6 2.6.7a2 2 0 0 1 1.7 2Z"/></svg>
-        010-4881-0542
-      </a>
-      <button class="burger" id="burger" aria-label="메뉴">☰</button>
+    <div class="hd-r">
+      <a class="hd-tel" href="tel:01048810542">010-4881-0542<small>08:00 ~ 01:00</small></a>
+      <button class="burger" id="burger" aria-label="메뉴 열기">☰</button>
     </div>
   </div>
 </header>
 
 <!-- HERO -->
 <div class="hero" id="top">
-  <div class="blob"></div>
-  <div class="wrap hero-inner">
-    <div class="badges">
-      <span class="badge b1">★ 평점 9.8 · 리뷰 624건</span>
-      <span class="badge b2">
-        <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-        원주 일산동
-      </span>
+  <div class="hero-img"><img src="assets/lounge-green.jpg" alt="프렌즈스크린 원주일산점 라운지" fetchpriority="high"></div>
+  <div class="hero-body">
+    <div class="wrap">
+      <div class="hero-in">
+        <p class="kicker">WONJU ILSAN · SCREEN GOLF</p>
+        <h1>원주 중심부에서<br>가장 <em>편한 라운딩</em></h1>
+        <p class="sub">티업비젼 5대 · 왼손 타석 · 하우스채 <b>무료</b> 대여<br>빈손으로 오셔도 바로 치실 수 있습니다.</p>
+        <div class="cta">
+          <button class="btn-gold" id="heroBook">예약하기</button>
+          <a class="tel-inline" href="tel:01048810542">또는 전화로 010-4881-0542</a>
+        </div>
+      </div>
     </div>
-    <h1 class="display">프렌즈스크린<span class="y">원주일산점</span></h1>
-    <p class="lead">원주 중심부의 프리미엄 스크린골프</p>
-    <p class="lead-2">고화질 스크린 · 합리적인 가격 · 넓은 무료 주차</p>
-    <div class="cta-row">
-      <a class="btn btn-primary" href="tel:01048810542">
-        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8.1 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.6 2.6.7a2 2 0 0 1 1.7 2Z"/></svg>
-        전화 예약
-      </a>
-      <a class="btn btn-ghost" href="#howto">이용 안내 보기</a>
-    </div>
-    <p class="hours-note"><span class="dot"></span>영업시간: 평일 08:00 ~ 01:00 / 주말 08:00 ~ 02:00</p>
   </div>
-  <div class="scroll-ind">SCROLL<span>⌄</span></div>
+  <div class="hero-meta">
+    <ul>
+      <li><strong>9.8</strong>평점 · 리뷰 624건</li>
+      <li><strong>5</strong>타석 운영</li>
+      <li><strong>30대+</strong>무료 주차</li>
+      <li><strong>연중무휴</strong>새벽 1시까지</li>
+    </ul>
+  </div>
 </div>
 
-<!-- FACILITY -->
+<!-- 시설 -->
 <section id="facility">
-  <div class="blob"></div>
   <div class="wrap">
     <div class="rv">
-      <div class="eyebrow"><i></i><span>FACILITY</span></div>
-      <h2 class="sec-title display">프리미엄 시설</h2>
-      <p class="sec-sub">원주 최고의 스크린골프 시설에서 최상의 라운딩 경험을 즐기세요</p>
+      <p class="eyebrow">FACILITY</p>
+      <h2 class="sec-t">공간이 편해야<br>스윙도 편합니다</h2>
+      <p class="sec-s">원주 중앙시장 · 세브란스 병원 인근, 우보삼성아파트 바로 옆</p>
     </div>
 
-    <div class="fac-grid">
-      <div class="fac-photo rv">
-        <img src="assets/booth-premium.jpg" alt="프렌즈스크린 원주일산점 프리미엄 타석">
-        <div class="photo-tags">
-          <span class="tag on">티업비젼 5대</span>
-          <span class="tag off">프렌즈스크린T</span>
-        </div>
-      </div>
-      <div class="fac-copy rv">
-        <h3 class="display">원주 중심부의<span class="y">프리미엄 스크린골프</span></h3>
-        <p>프렌즈스크린 원주일산점은 원주 중앙시장, 세브란스 병원, 일산골프연습장 인근에 위치해 있으며, 우보삼성아파트 바로 옆에 있어 쉽게 찾으실 수 있습니다.</p>
-        <p>원주 중심부에 위치하여 원주 어느 곳에서든 <b>15분 이내</b>로 편리하게 방문하실 수 있습니다.</p>
-        <div class="stats">
-          <div class="stat"><strong>5</strong><span>타석</span></div>
-          <div class="stat"><strong>9.8</strong><span>평균 평점</span></div>
-          <div class="stat"><strong>624+</strong><span>리뷰</span></div>
+    <div class="alt">
+      <div class="alt-img rv"><img src="assets/booth-1.jpg" alt="넓은 스크린골프 타석" loading="lazy"></div>
+      <div class="rv">
+        <h3>혼자 와도, 넷이 와도<br>좁지 않은 타석</h3>
+        <p>대기 소파와 테이블이 타석 안에 함께 있어 일행이 편하게 쉬면서 기다릴 수 있습니다. 정밀 센서와 고화질 스크린으로 <b>실전에 가까운 라운딩</b>을 즐기실 수 있습니다.</p>
+        <p>왼손잡이 골퍼를 위한 전용 타석도 따로 운영합니다.</p>
+        <div class="chips">
+          <span class="chip">티업비젼 5대</span>
+          <span class="chip">왼손 타석 운영</span>
+          <span class="chip">매일 소독 · 공기청정</span>
         </div>
       </div>
     </div>
 
-    <div class="feat-grid">
-      <div class="feat rv">
-        <div class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
-        <h4>고화질 스크린</h4>
-        <p>티업비젼 5대 운영. 정밀한 센서와 고화질 스크린으로 실전 같은 라운딩 경험</p>
+    <div class="alt flip">
+      <div class="alt-img rv"><img src="assets/entrance-lobby.jpg" alt="프렌즈스크린 원주일산점 입구 및 로비" loading="lazy"></div>
+      <div class="rv">
+        <h3>찾기 쉽고<br>주차가 편합니다</h3>
+        <p>원주 중심부에 있어 어느 곳에서든 <b>15분 이내</b>. 지상 주차장 30대 이상을 무료로 이용하실 수 있고, 별도 등록 절차도 없습니다.</p>
+        <p>개인 클럽은 매장에 보관해 두실 수 있어 매번 들고 오실 필요가 없습니다.</p>
+        <div class="chips">
+          <span class="chip">무료 주차 30대 이상</span>
+          <span class="chip">개인 클럽 보관</span>
+          <span class="chip">음료 · 간식 판매</span>
+        </div>
       </div>
-      <div class="feat rv">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M5 17h14l-1.5-6.5A2 2 0 0 0 15.6 9H8.4a2 2 0 0 0-1.9 1.5L5 17Z"/><circle cx="7.5" cy="17.5" r="1.6"/><circle cx="16.5" cy="17.5" r="1.6"/></svg></div>
-        <h4>넓은 무료 주차</h4>
-        <p>우보삼성아파트 인근 넓은 무료 주차장 완비. 편리한 접근성</p>
-      </div>
-      <div class="feat rv">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M16 20v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="3.2"/><path d="M22 20v-2a4 4 0 0 0-3-3.9M16.5 4.1a3.2 3.2 0 0 1 0 6.2"/></svg></div>
-        <h4>단체 이용 가능</h4>
-        <p>개인 연습부터 직장 단체 모임까지. 단체 예약 및 문의 가능</p>
-      </div>
-      <div class="feat rv">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 8h11a3 3 0 1 0-3-3M3 12h15a3 3 0 1 1-3 3M3 16h8"/></svg></div>
-        <h4>쾌적한 환경</h4>
-        <p>공기청정 및 매일 소독 관리. 위생적이고 쾌적한 환경 유지</p>
-      </div>
-      <div class="feat rv">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M18 3l3 3-9.5 9.5M6 21l-3-3 6-6"/><circle cx="7.5" cy="16.5" r="2"/></svg></div>
-        <h4>왼손 타석</h4>
-        <p>왼손잡이 골퍼를 위한 전용 타석 운영. 모든 골퍼를 위한 공간</p>
-      </div>
-      <div class="feat rv">
-        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div>
-        <h4>새벽 영업</h4>
-        <p>오전 8시부터 새벽 1시까지. 야간 라운딩과 장시간 연습 가능</p>
-      </div>
+    </div>
+
+    <div class="feats">
+      <div class="feat rv"><i>01</i><h4>하우스채 무료</h4><p>대여료가 없습니다. 골프화만 챙기시면 준비물은 끝입니다.</p></div>
+      <div class="feat rv"><i>02</i><h4>새벽 1시까지</h4><p>퇴근 후에도, 2차 대신에도. 오전 8시부터 새벽까지 엽니다.</p></div>
+      <div class="feat rv"><i>03</i><h4>단체 환영</h4><p>직장 모임·동호회 라운딩. 사전 문의 주시면 타석을 맞춰 드립니다.</p></div>
     </div>
   </div>
 </section>
 
-<!-- GALLERY -->
+<!-- 갤러리 -->
 <section id="gallery">
-  <div class="blob"></div>
   <div class="wrap">
     <div class="rv">
-      <div class="eyebrow"><i></i><span>GALLERY</span></div>
-      <h2 class="sec-title display">시설 갤러리</h2>
-      <p class="sec-sub">다양한 각도에서 본 프리미엄 스크린골프 시설</p>
+      <p class="eyebrow">GALLERY</p>
+      <h2 class="sec-t">둘러보기</h2>
+      <p class="sec-s">사진으로 미리 보는 매장 내부</p>
     </div>
 
-    <div class="slider rv" id="slider">
-      <div class="slides" id="slides">
-        <div class="slide active">
-          <img src="assets/booth-1.jpg" alt="스크린골프 타석">
-          <div class="shade"></div>
-          <div class="cap">
-            <span class="tag on">타석</span>
-            <h4>넓은 스크린골프 타석</h4>
-            <p>여유로운 타석 공간과 편안한 대기 소파. 티업비젼 시스템으로 실전 같은 라운딩</p>
-          </div>
+    <div class="gal rv">
+      <div class="gal-stage" id="gstage">
+        <div class="gslide on">
+          <img src="assets/lounge-green.jpg" alt="프렌즈스크린 원주일산점 라운지" loading="lazy">
+          <div class="gcap"><i>LOUNGE</i><h4>라운지 · 클럽 보관</h4><p>골프 중계를 보며 쉴 수 있는 소파와 개인 클럽 보관 공간이 있습니다.</p></div>
         </div>
-        <div class="slide">
-          <img src="assets/lobby-hall.jpg" alt="복도 및 라운지">
-          <div class="shade"></div>
-          <div class="cap">
-            <span class="tag on">라운지</span>
-            <h4>복도 및 라운지</h4>
-            <p>골프백 보관 공간과 함께 쉴 수 있는 넓은 복도, 아늑한 라운지 공간</p>
-          </div>
+        <div class="gslide">
+          <img src="assets/booth-1.jpg" alt="스크린골프 타석" loading="lazy">
+          <div class="gcap"><i>TEE BOX</i><h4>넉넉한 타석 공간</h4><p>일행이 함께 앉아 쉴 수 있는 소파와 테이블이 타석 안에 있습니다.</p></div>
         </div>
-        <div class="slide">
-          <img src="assets/entrance-lobby.jpg" alt="입구 및 로비">
-          <div class="shade"></div>
-          <div class="cap">
-            <span class="tag on">입구</span>
-            <h4>입구 및 로비</h4>
-            <p>현대적이고 깔끔한 시설 입구. 고급스러운 분위기의 로비 공간</p>
-          </div>
+        <div class="gslide">
+          <img src="assets/lobby-hall.jpg" alt="복도 및 대기 공간" loading="lazy">
+          <div class="gcap"><i>HALL</i><h4>복도 · 대기 공간</h4><p>골프백을 세워둘 수 있는 넓은 복도와 아늑한 테이블 공간.</p></div>
         </div>
-        <button class="arrow prev" id="prev" aria-label="이전">‹</button>
-        <button class="arrow next" id="next" aria-label="다음">›</button>
-        <div class="counter" id="counter">1 / 3</div>
+        <div class="gslide">
+          <img src="assets/entrance-lobby.jpg" alt="입구" loading="lazy">
+          <div class="gcap"><i>ENTRANCE</i><h4>입구</h4><p>깔끔한 시설 입구. 주차장에서 바로 들어오실 수 있습니다.</p></div>
+        </div>
+        <button class="garrow p" id="gprev" aria-label="이전 사진">‹</button>
+        <button class="garrow n" id="gnext" aria-label="다음 사진">›</button>
       </div>
-      <div class="thumbs" id="thumbs">
-        <button class="thumb active"><img src="assets/booth-1.jpg" alt=""></button>
-        <button class="thumb"><img src="assets/lobby-hall.jpg" alt=""></button>
-        <button class="thumb"><img src="assets/entrance-lobby.jpg" alt=""></button>
-        <button class="pause-btn" id="pause">⏸ 일시정지</button>
-      </div>
-      <div class="dots" id="dots">
-        <button class="active"></button><button></button><button></button>
+      <div class="gbar">
+        <div class="dots" id="gdots"></div>
+        <span class="cnt" id="gcnt">1 / 5</span>
+        <button class="pz" id="gpause">일시정지</button>
       </div>
     </div>
   </div>
 </section>
 
-<!-- HOW TO USE -->
+<!-- 사진 띠 A -->
+<div class="band">
+  <img src="assets/lobby-hall.jpg" alt="" loading="lazy">
+  <div class="bin rv">
+    <i>NO BURDEN</i>
+    <p>클럽은 맡겨두고,<br><span>몸만 오세요</span></p>
+    <small>하우스채 무료 대여 · 개인 클럽 보관 · 골프화만 챙기시면 됩니다</small>
+  </div>
+</div>
+
+<!-- 이용 안내 -->
 <section id="howto">
-  <div class="blob"></div>
   <div class="wrap">
-    <div class="howto-grid">
-      <div>
-        <div class="rv">
-          <div class="eyebrow"><i></i><span>HOW TO USE</span></div>
-          <h2 class="sec-title display">이용 안내</h2>
-          <p class="sec-sub">처음 방문하시는 분도 쉽게 이용할 수 있습니다</p>
+    <div class="rv">
+      <p class="eyebrow">HOW TO USE</p>
+      <h2 class="sec-t">처음이어도 괜찮습니다</h2>
+      <p class="sec-s">예약부터 라운딩까지 4단계</p>
+    </div>
+
+    <div class="use">
+      <div class="steps rv">
+        <div class="step">
+          <span class="no">01</span>
+          <div><h4>예약 또는 방문</h4><p>전화 예약, 사이트 예약 신청, 현장 방문 모두 가능합니다. 단체는 사전 문의를 권장합니다.</p></div>
         </div>
-        <div class="steps">
-          <div class="step rv">
-            <div class="ico"><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18.5h2"/></svg></div>
-            <div><h4><span class="step-no">01</span>예약 또는 방문</h4><p>전화 예약 또는 현장 방문 모두 가능합니다. 단체 예약은 사전 문의를 권장합니다.</p></div>
-          </div>
-          <div class="step rv">
-            <div class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2.5"/><path d="M2 10h20"/></svg></div>
-            <div><h4><span class="step-no">02</span>결제</h4><p>현장 결제 가능. 평일/주말, 시간대별 요금이 다릅니다.</p></div>
-          </div>
-          <div class="step rv">
-            <div class="ico"><svg viewBox="0 0 24 24"><path d="M21 8 12 3 3 8v8l9 5 9-5V8Z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div>
-            <div><h4><span class="step-no">03</span>장비 준비</h4><p>개인 클럽 지참 또는 하우스채 대여 가능. 골프화 착용 권장.</p></div>
-          </div>
-          <div class="step rv">
-            <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div>
-            <div><h4><span class="step-no">04</span>라운딩 시작</h4><p>18홀 기준 약 1.5~2시간 소요. 연습 모드도 이용 가능합니다.</p></div>
-          </div>
+        <div class="step">
+          <span class="no">02</span>
+          <div><h4>결제</h4><p>현장 결제입니다. 카드·현금·간편결제 모두 사용하실 수 있습니다. 평일과 주말, 시간대별로 요금이 다릅니다.</p></div>
+        </div>
+        <div class="step">
+          <span class="no">03</span>
+          <div><h4>장비 준비</h4><p>하우스채를 무료로 대여해 드립니다. 개인 클럽을 가져오셔도 되고, 매장에 맡겨두실 수도 있습니다. 골프화 착용을 권장합니다.</p></div>
+        </div>
+        <div class="step">
+          <span class="no">04</span>
+          <div><h4>라운딩 시작</h4><p>18홀 기준 약 1.5 ~ 2시간 걸립니다. 연습 모드만 이용하셔도 됩니다.</p></div>
         </div>
       </div>
 
-      <div class="side">
+      <div>
+        <div class="use-img rv"><img src="assets/lobby-hall.jpg" alt="복도 및 대기 공간" loading="lazy"></div>
+
         <div class="panel rv">
-          <h4><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>운영 시간</h4>
+          <h4>운영 시간</h4>
           <div class="hrow"><span>평일 (월~금)</span><span>08:00 ~ 01:00</span></div>
-          <div class="hrow"><span>주말 (토~일)</span><span>08:00 ~ 02:00</span></div>
+          <div class="hrow"><span>주말 (토·일)</span><span>08:00 ~ 02:00</span></div>
           <div class="hrow"><span>공휴일</span><span>08:00 ~ 02:00</span></div>
-          <div class="pill-note"><span class="dot"></span>연중무휴 운영</div>
+          <span class="tag-open">연중무휴 운영</span>
         </div>
 
         <div class="panel rv">
           <h4>편의시설</h4>
-          <ul class="two-col">
-            <li>무료 주차장 운영</li>
-            <li>개인 클럽 보관 가능</li>
-            <li>하우스채 대여</li>
-            <li>음료 및 간식 판매</li>
-            <li>단체 예약 가능</li>
-            <li>왼손 타석 운영</li>
-          </ul>
+          <div class="chips" style="margin-top:0">
+            <span class="chip">무료 주차 30대 이상</span>
+            <span class="chip">하우스채 무료 대여</span>
+            <span class="chip">개인 클럽 보관</span>
+            <span class="chip">음료 · 간식 판매</span>
+            <span class="chip">왼손 타석</span>
+            <span class="chip">단체 예약</span>
+          </div>
         </div>
 
-        <div class="panel hi rv">
-          <h4>이런 분께 추천해요</h4>
-          <ul class="check">
+        <div class="panel rv" style="margin-bottom:0">
+          <h4>이런 분께 권합니다</h4>
+          <ul class="reco">
             <li>골프 기초 연습이 필요한 초보자</li>
             <li>필드 대비 실전 감각을 기르고 싶은 골퍼</li>
-            <li>날씨와 관계없이 야간 라운딩이 필요한 분</li>
-            <li>단체 라운딩, 지인 모임 장소가 필요한 분</li>
+            <li>날씨와 관계없이 야간에 치고 싶은 분</li>
+            <li>단체 라운딩·지인 모임 장소가 필요한 분</li>
           </ul>
         </div>
       </div>
@@ -526,189 +577,540 @@ footer{background:#020202;border-top:1px solid rgba(255,255,255,.07);padding:64p
   </div>
 </section>
 
-<!-- PRICING -->
-<section id="pricing">
-  <div class="blob"></div>
+<!-- 가격 -->
+<section id="price">
   <div class="wrap">
     <div class="rv">
-      <div class="eyebrow"><i></i><span>PRICING</span></div>
-      <h2 class="sec-title display">가격 안내</h2>
-      <p class="sec-sub">합리적인 가격으로 프리미엄 스크린골프를 즐기세요</p>
+      <p class="eyebrow">PRICING</p>
+      <h2 class="sec-t">1인 1게임, 만 원부터</h2>
+      <p class="sec-s">18홀 기준 · 시간대별 요금</p>
     </div>
 
-    <div class="price-grid">
-      <div class="price-card rv">
-        <h4>평일 주간</h4>
-        <p class="when">월~금 · 개장 ~ 오후</p>
-        <div class="amt">00,000<em>원 / 1게임</em></div>
-        <ul>
-          <li>18홀 기준 약 1.5~2시간</li>
-          <li>연습 모드 이용 가능</li>
-          <li>하우스채 대여 가능</li>
-        </ul>
+    <div class="ptable rv">
+      <div class="pgrp">
+        <h4>평일<small>월요일 ~ 금요일</small></h4>
+        <div class="plist">
+          <div class="pitem"><div class="t">08:00 ~ 12:00</div><div class="v">10,000<em>원</em></div></div>
+          <div class="pitem"><div class="t">12:00 ~ 15:00</div><div class="v">13,000<em>원</em></div></div>
+          <div class="pitem"><div class="t">15:00 ~ 22:00</div><div class="v">15,000<em>원</em></div></div>
+          <div class="pitem"><div class="t">22:00 ~ 01:00</div><div class="v">17,000<em>원</em></div></div>
+        </div>
       </div>
-      <div class="price-card best rv">
-        <span class="rib">인기</span>
-        <h4>평일 야간</h4>
-        <p class="when">월~금 · 오후 ~ 새벽 01:00</p>
-        <div class="amt">00,000<em>원 / 1게임</em></div>
-        <ul>
-          <li>퇴근 후 라운딩에 적합</li>
-          <li>단체 예약 문의 가능</li>
-          <li>무료 주차</li>
-        </ul>
-      </div>
-      <div class="price-card rv">
-        <h4>주말 · 공휴일</h4>
-        <p class="when">토·일·공휴일 · 08:00 ~ 새벽 02:00</p>
-        <div class="amt">00,000<em>원 / 1게임</em></div>
-        <ul>
-          <li>사전 전화 예약 권장</li>
-          <li>왼손 타석 이용 가능</li>
-          <li>음료 및 간식 판매</li>
-        </ul>
+      <div class="pgrp hi">
+        <h4>주말 · 공휴일<small>토요일, 일요일, 공휴일</small></h4>
+        <div class="plist">
+          <div class="pitem"><div class="t">08:00 ~ 12:00</div><div class="v">12,000<em>원</em></div></div>
+          <div class="pitem"><div class="t">12:00 ~ 15:00</div><div class="v">15,000<em>원</em></div></div>
+          <div class="pitem"><div class="t">15:00 ~ 22:00</div><div class="v">17,000<em>원</em></div></div>
+          <div class="pitem"><div class="t">22:00 ~ 02:00</div><div class="v">19,000<em>원</em></div></div>
+        </div>
       </div>
     </div>
 
-    <p class="todo">※ 이 요금표는 자리만 잡아둔 임시 구조입니다. 원본 사이트의 가격 섹션이 PDF에 렌더링되지 않아 실제 금액을 확보하지 못했습니다. 실제 요금을 알려주시면 그대로 채워 드립니다.</p>
+    <div class="pnotes rv">
+      <span>하우스채 <b>무료 대여</b></span>
+      <span>주차 <b>30대 이상 무료</b></span>
+      <span>결제 <b>모든 수단 가능</b></span>
+    </div>
+    <p class="pfoot rv">요금은 1인 1게임(18홀) 기준입니다. 단체 예약 및 문의는 010-4881-0542로 연락 주세요.</p>
   </div>
 </section>
 
-<!-- LOCATION -->
+<!-- 리뷰 -->
+<section id="reviews">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow">REVIEWS</p>
+      <h2 class="sec-t">다녀가신 분들의 말</h2>
+      <div class="score"><b>9.8</b><span>평점 · 총 624건</span></div>
+    </div>
+
+    <!-- ============ 리뷰 카드: 이 블록만 갈아끼우면 됩니다 ============ -->
+    <div class="rev-row rv">
+      <div class="rev">
+        <div class="st">★★★★★</div>
+        <p>가격도 저렴하고 시설도 깔끔해요. 주차도 넉넉하게 되어서 편하게 이용했습니다. 직원분들도 친절하시고 자주 이용할 것 같아요.</p>
+        <cite>김*민</cite>
+      </div>
+      <div class="rev">
+        <div class="st">★★★★★</div>
+        <p>원주에서 제일 좋은 스크린골프장인 것 같아요. 스크린 화질도 좋고 센서도 정확합니다. 단체로 와도 충분히 이용 가능해요.</p>
+        <cite>이*진</cite>
+      </div>
+      <div class="rev">
+        <div class="st">★★★★★</div>
+        <p>새벽까지 영업해서 퇴근 후에도 이용할 수 있어서 좋아요. 위생 관리도 잘 되어 있고 쾌적한 환경입니다.</p>
+        <cite>박*수</cite>
+      </div>
+      <div class="rev">
+        <div class="st">★★★★★</div>
+        <p>처음 스크린골프 도전했는데 직원분이 친절하게 안내해 주셨어요. 초보자도 쉽게 이용할 수 있는 곳입니다.</p>
+        <cite>최*희</cite>
+      </div>
+      <div class="rev">
+        <div class="st">★★★★<em>★</em></div>
+        <p>접근성이 좋고 주차가 편리해요. 가격 대비 시설이 훌륭합니다. 단골이 될 것 같아요.</p>
+        <cite>정*호</cite>
+      </div>
+      <div class="rev">
+        <div class="st">★★★★★</div>
+        <p>왼손 타석이 있어서 정말 좋았어요! 왼손잡이 골퍼들에게 강력 추천합니다. 시설도 최고예요.</p>
+        <cite>강*연</cite>
+      </div>
+    </div>
+    <!-- ==================== 리뷰 카드 끝 ==================== -->
+
+    <div class="rev-more rv" id="revMore" hidden>
+      <a href="#" id="revMoreLink" target="_blank" rel="noopener">김캐디에서 전체 리뷰 보기 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- 사진 띠 B (예약 유도) -->
+<div class="band">
+  <img src="assets/booth-1.jpg" alt="" loading="lazy">
+  <div class="bin rv">
+    <i>RESERVATION</i>
+    <p>오늘 저녁,<br><span>한 게임 어떠세요?</span></p>
+    <small>새벽 1시까지 · 연중무휴 · 전화 한 통이면 됩니다</small>
+    <button class="btn-gold" id="bandBook">예약하기</button>
+  </div>
+</div>
+
+<!-- 오시는 길 -->
 <section id="location">
-  <div class="blob"></div>
   <div class="wrap">
     <div class="rv">
-      <div class="eyebrow"><i></i><span>LOCATION</span></div>
-      <h2 class="sec-title display">오시는 길</h2>
-      <p class="sec-sub">원주 중심부, 어느 곳에서든 15분 이내</p>
+      <p class="eyebrow">LOCATION</p>
+      <h2 class="sec-t">오시는 길</h2>
+      <p class="sec-s">원주 어디서든 15분 이내</p>
     </div>
 
-    <div class="loc-grid">
-      <div class="map-box rv">
-        <img src="assets/reception.jpg" alt="">
-        <div class="pin">
-          <b>프렌즈스크린 원주일산점</b>
-          <span>강원특별자치도 원주시 단구로37번길 23, A동 1층</span>
+    <div class="loc">
+      <!-- ===== 지도 ===== -->
+      <a class="map rv" href="https://map.naver.com/p/entry/place/1592539058" target="_blank" rel="noopener" aria-label="네이버 지도에서 프렌즈스크린 원주일산점 보기">
+        <div class="ph">
+          <img src="assets/entrance-lobby.jpg" alt="">
+          <div>
+            <b>프렌즈스크린 원주일산점</b>
+            <span>강원특별자치도 원주시 단구로37번길 23, A동 1층</span>
+          </div>
         </div>
-      </div>
-      <div class="loc-info">
-        <div class="info-row rv">
-          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-          <div><div class="k">주소</div><div class="v">강원특별자치도 원주시 단구로37번길 23, A동 1층</div></div>
+        <span class="map-hint">
+          네이버 지도에서 보기
+          <svg viewBox="0 0 24 24" stroke-linecap="round"><path d="M7 17 17 7M17 7H9M17 7v8"/></svg>
+        </span>
+      </a>
+      <!-- ===== 지도 끝 ===== -->
+
+      <div class="rv">
+        <div class="irow">
+          <div class="k">주소</div>
+          <div class="v">강원특별자치도 원주시<br>단구로37번길 23, A동 1층</div>
         </div>
-        <div class="info-row rv">
-          <svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8.1 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.6 2.6.7a2 2 0 0 1 1.7 2Z"/></svg>
-          <div><div class="k">전화</div><div class="v"><a href="tel:01048810542">010-4881-0542</a></div></div>
+        <div class="irow">
+          <div class="k">전화</div>
+          <div class="v"><a href="tel:01048810542">010-4881-0542</a><small>예약 및 단체 문의</small></div>
         </div>
-        <div class="info-row rv">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
-          <div><div class="k">영업시간</div><div class="v">평일 08:00 ~ 01:00<br>주말 08:00 ~ 02:00 · 연중무휴</div></div>
+        <div class="irow">
+          <div class="k">영업시간</div>
+          <div class="v">평일 08:00 ~ 01:00<br>주말·공휴일 08:00 ~ 02:00<small>연중무휴</small></div>
         </div>
-        <div class="panel rv">
-          <h4>주변 랜드마크</h4>
-          <ul class="near">
-            <li>원주 중앙시장 인근</li>
-            <li>원주 세브란스 병원 인근</li>
-            <li>일산골프연습장 인근</li>
-            <li>우보삼성아파트 바로 옆</li>
-            <li>넓은 무료 주차장 완비</li>
-          </ul>
+        <div class="irow">
+          <div class="k">주차</div>
+          <div class="v">지상 주차장 30대 이상 · 전액 무료<small>별도 등록 없이 바로 이용하실 수 있습니다</small></div>
+        </div>
+        <div class="irow">
+          <div class="k">주변</div>
+          <div class="v">우보삼성아파트 바로 옆<small>원주 중앙시장 · 세브란스 병원 · 일산골프연습장 인근</small></div>
+        </div>
+
+        <div class="loc-btns">
+          <a class="nv" href="https://map.naver.com/p/entry/place/1592539058" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            네이버 지도 · 길찾기
+          </a>
+          <button id="copyAddr">
+            <svg viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M15 5H5a2 2 0 0 0-2 2v10"/></svg>
+            주소 복사
+          </button>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
   <div class="wrap">
-    <div class="f-grid">
-      <div class="f-about">
+    <div class="f-top">
+      <div>
         <div class="logo">
           <span class="logo-mark">F</span>
-          <span class="logo-txt"><strong>프렌즈스크린</strong><span>원주일산점</span></span>
+          <span><b>프렌즈스크린</b><i>원주일산점</i></span>
         </div>
-        <p>원주 중심부의 프리미엄 스크린골프.<br>고화질 스크린과 합리적인 가격으로<br>최상의 골프 경험을 제공합니다.</p>
+        <p>강원특별자치도 원주시<br>단구로37번길 23, A동 1층</p>
+        <p class="f-brand"><span></span>프렌즈스크린 가맹점</p>
       </div>
-      <div class="f-col">
+      <div>
         <h5>바로가기</h5>
         <ul>
-          <li><a href="#facility">시설 소개</a></li>
+          <li><a href="#facility">시설</a></li>
           <li><a href="#howto">이용 안내</a></li>
-          <li><a href="#pricing">가격 안내</a></li>
+          <li><a href="#price">가격</a></li>
           <li><a href="#location">오시는 길</a></li>
         </ul>
       </div>
-      <div class="f-col">
-        <h5>연락처</h5>
-        <ul class="f-contact">
-          <li><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>강원특별자치도 원주시 단구로37번길 23, A동 1층</li>
-          <li><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8.1 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.6 2.6.7a2 2 0 0 1 1.7 2Z"/></svg><a href="tel:01048810542">010-4881-0542</a></li>
-          <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>평일 08:00 ~ 01:00 / 주말 08:00 ~ 02:00</li>
+      <div>
+        <h5>영업시간</h5>
+        <ul>
+          <li>평일 08:00 ~ 01:00</li>
+          <li>주말·공휴일 08:00 ~ 02:00</li>
+          <li>연중무휴</li>
+        </ul>
+      </div>
+      <div>
+        <h5>예약 · 문의</h5>
+        <ul>
+          <li><a class="f-tel" href="tel:01048810542">010-4881-0542</a></li>
+          <li>전화 예약 또는 현장 방문</li>
+          <li>하우스채 무료 대여</li>
         </ul>
       </div>
     </div>
     <div class="f-bot">
-      <p>© 2024 프렌즈스크린 원주일산점. All rights reserved.</p>
-      <p>사업자: 지명구 | 강원특별자치도 원주시 일산동 333-11</p>
+      <span>© 2026 프렌즈스크린 원주일산점. All rights reserved.</span>
+      <span>사업자: 지명구 | 강원특별자치도 원주시 일산동 333-11</span>
     </div>
   </div>
 </footer>
 
-<div class="float">
-  <a class="res" href="tel:01048810542">예약</a>
-  <a class="ask" href="tel:01048810542">문의</a>
+<!-- FAB -->
+<div class="fab-back" id="fabBack"></div>
+<div class="fab" id="fab">
+  <div class="fab-item" id="fabKakao" hidden>
+    <span class="lbl">카카오톡 문의</span>
+    <a class="cc k" id="fabKakaoLink" target="_blank" rel="noopener" aria-label="카카오톡 문의">
+      <svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-8.5 8.2 9.3 9.3 0 0 1-2.4-.3L6 21l1-3.3A8 8 0 0 1 4 11.5C4 6.9 7.8 3.3 12.5 3.3S21 6.9 21 11.5Z"/></svg>
+    </a>
+  </div>
+  <div class="fab-item">
+    <span class="lbl">전화 예약</span>
+    <a class="cc" href="tel:01048810542" aria-label="전화 예약">
+      <svg viewBox="0 0 24 24" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8.1 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.6 2.6.7a2 2 0 0 1 1.7 2Z"/></svg>
+    </a>
+  </div>
+  <div class="fab-item">
+    <span class="lbl">예약하기</span>
+    <button class="cc" id="fabBook" aria-label="예약하기">
+      <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M8 3v4M16 3v4M3 11h18"/></svg>
+    </button>
+  </div>
+  <button class="fab-main" id="fabMain" aria-label="메뉴 열기" aria-expanded="false">
+    <svg viewBox="0 0 24 24" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+  </button>
+</div>
+
+<!-- 예약 모달 -->
+<div class="modal" id="resModal" role="dialog" aria-modal="true" aria-labelledby="resTitle">
+  <div class="sheet">
+    <div class="sh-hd">
+      <h3 id="resTitle">예약 신청</h3>
+      <button class="xb" id="resClose" aria-label="닫기">&times;</button>
+    </div>
+
+    <div class="sh-bd" id="resFormPane">
+      <div class="note">현재 시간 <b id="nowTime">--:--</b> · 5분 뒤부터 예약하실 수 있습니다.</div>
+
+      <div class="fld" id="fName">
+        <label for="iName">이름</label>
+        <input type="text" id="iName" placeholder="김민준" autocomplete="name">
+        <p class="err">이름을 입력해 주세요.</p>
+      </div>
+      <div class="fld" id="fTel">
+        <label for="iTel">연락처</label>
+        <input type="tel" id="iTel" placeholder="010-1234-5678" inputmode="numeric" autocomplete="tel">
+        <p class="err">연락처를 정확히 입력해 주세요.</p>
+      </div>
+      <div class="fld" id="fDate">
+        <label for="iDate">방문 날짜</label>
+        <select id="iDate"></select>
+      </div>
+      <div class="fld" id="fTime">
+        <label for="iTime">방문 시간</label>
+        <select id="iTime"><option value="">시간을 선택해 주세요</option></select>
+        <p class="err">방문 시간을 선택해 주세요.</p>
+      </div>
+      <div class="fld" id="fPax">
+        <label for="iPax">인원</label>
+        <select id="iPax">
+          <option>1명</option><option>2명</option><option>3명</option><option>4명</option>
+          <option>5명</option><option>6명</option><option>7명 이상 (단체)</option>
+        </select>
+      </div>
+
+      <div class="tail">신청을 누르면 매장으로 보낼 문자가 자동으로 작성됩니다. 문자를 전송하시면 매장에서 확인 후 연락드립니다. 정확한 예약 시간은 통화로 확정됩니다.</div>
+
+      <div class="sh-ft">
+        <button class="b-c" id="resCancel">취소</button>
+        <button class="btn-gold" id="resSubmit" style="justify-content:center">예약 신청</button>
+      </div>
+    </div>
+
+    <div class="sh-bd" id="resDonePane" hidden>
+      <p class="done-t">문자 앱을 열어주세요</p>
+      <p class="done-s">아래 내용이 자동으로 입력됩니다.<br><b>보내기를 눌러야 신청이 완료됩니다.</b></p>
+      <div class="msg-box" id="msgBox"></div>
+      <button class="btn-gold" id="openSms" style="width:100%;justify-content:center">문자 앱 열기</button>
+      <div class="alt-row">
+        <button id="copyMsg">내용 복사</button>
+        <a href="tel:01048810542">전화로 예약</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
-// mobile nav
-document.getElementById('burger').addEventListener('click', function(){
+/* ═══════════════════════════════════════════════════
+   ⚙️ 설정 — 이 3줄만 고치면 됩니다
+   ═══════════════════════════════════════════════════ */
+var SHOP_TEL      = '01048810542';   // 매장 전화번호 (하이픈 없이)
+var KAKAO_URL     = '';              // 카카오톡 채널 주소 (비우면 버튼 자동 숨김)
+var KIMCADDIE_URL = '';              // 김캐디 매장 페이지 주소 (비우면 버튼 자동 숨김)
+/* ═══════════════════════════════════════════════════ */
+
+/* 모바일 메뉴 */
+document.getElementById('burger').addEventListener('click',function(){
   document.getElementById('nav').classList.toggle('open');
 });
 document.querySelectorAll('#nav a').forEach(function(a){
-  a.addEventListener('click', function(){ document.getElementById('nav').classList.remove('open'); });
+  a.addEventListener('click',function(){ document.getElementById('nav').classList.remove('open'); });
 });
 
-// scroll reveal
-var io = new IntersectionObserver(function(entries){
-  entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
-},{threshold:.12, rootMargin:'0px 0px -40px 0px'});
-document.querySelectorAll('.rv').forEach(function(el,i){
-  el.style.transitionDelay = (i % 6) * 60 + 'ms';
-  io.observe(el);
-});
+/* 스크롤 리빌 */
+try{
+  if(!('IntersectionObserver' in window)) throw new Error('no IO');
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  },{threshold:.1,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.rv').forEach(function(el,i){
+    el.style.transitionDelay=(i%4)*70+'ms';
+    io.observe(el);
+  });
+  setTimeout(function(){ document.querySelectorAll('.rv:not(.in)').forEach(function(el){ el.classList.add('in'); }); },5000);
+  window.addEventListener('beforeprint',function(){ document.documentElement.classList.add('no-anim'); });
+}catch(err){ document.documentElement.classList.add('no-anim'); }
 
-// gallery
+/* 설정값 적용 */
+if(KAKAO_URL){
+  document.getElementById('fabKakaoLink').href=KAKAO_URL;
+  document.getElementById('fabKakao').hidden=false;
+}
+if(KIMCADDIE_URL){
+  document.getElementById('revMoreLink').href=KIMCADDIE_URL;
+  document.getElementById('revMore').hidden=false;
+}
+
+/* 주소 복사 */
 (function(){
-  var slides  = Array.prototype.slice.call(document.querySelectorAll('#slides .slide'));
-  var thumbs  = Array.prototype.slice.call(document.querySelectorAll('#thumbs .thumb'));
-  var dots    = Array.prototype.slice.call(document.querySelectorAll('#dots button'));
-  var counter = document.getElementById('counter');
-  var pauseBtn= document.getElementById('pause');
-  var i = 0, playing = true, timer = null;
-
-  function render(){
-    slides.forEach(function(s,n){ s.classList.toggle('active', n===i); });
-    thumbs.forEach(function(t,n){ t.classList.toggle('active', n===i); });
-    dots.forEach(function(d,n){ d.classList.toggle('active', n===i); });
-    counter.textContent = (i+1) + ' / ' + slides.length;
+  var btn=document.getElementById('copyAddr');
+  var ADDR='강원특별자치도 원주시 단구로37번길 23, A동 1층 (프렌즈스크린 원주일산점)';
+  var label=btn.innerHTML;
+  function done(){ btn.textContent='복사됐습니다'; setTimeout(function(){ btn.innerHTML=label; },1800); }
+  function fallback(){
+    var ta=document.createElement('textarea');
+    ta.value=ADDR; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select();
+    try{ document.execCommand('copy'); done(); }catch(e){}
+    document.body.removeChild(ta);
   }
-  function go(n){ i = (n + slides.length) % slides.length; render(); }
-  function start(){ stop(); timer = setInterval(function(){ go(i+1); }, 4500); }
-  function stop(){ if(timer){ clearInterval(timer); timer = null; } }
+  btn.addEventListener('click',function(){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(ADDR).then(done,fallback);
+    } else fallback();
+  });
+})();
 
-  document.getElementById('prev').addEventListener('click', function(){ go(i-1); if(playing) start(); });
-  document.getElementById('next').addEventListener('click', function(){ go(i+1); if(playing) start(); });
-  thumbs.forEach(function(t,n){ t.addEventListener('click', function(){ go(n); if(playing) start(); }); });
-  dots.forEach(function(d,n){ d.addEventListener('click', function(){ go(n); if(playing) start(); }); });
-  pauseBtn.addEventListener('click', function(){
-    playing = !playing;
-    pauseBtn.textContent = playing ? '⏸ 일시정지' : '▶ 재생';
-    if(playing) start(); else stop();
+/* 갤러리 */
+(function(){
+  var slides=Array.prototype.slice.call(document.querySelectorAll('#gstage .gslide'));
+  var dotsBox=document.getElementById('gdots'), cnt=document.getElementById('gcnt'), pz=document.getElementById('gpause');
+  var i=0, playing=true, timer=null, dots=[];
+
+  slides.forEach(function(_,n){
+    var b=document.createElement('button');
+    b.setAttribute('aria-label',(n+1)+'번째 사진');
+    b.addEventListener('click',function(){ go(n); if(playing) start(); });
+    dotsBox.appendChild(b); dots.push(b);
   });
 
+  function render(){
+    slides.forEach(function(s,n){ s.classList.toggle('on',n===i); });
+    dots.forEach(function(d,n){ d.classList.toggle('on',n===i); });
+    cnt.textContent=(i+1)+' / '+slides.length;
+  }
+  function go(n){ i=(n+slides.length)%slides.length; render(); }
+  function start(){ stop(); timer=setInterval(function(){ go(i+1); },5000); }
+  function stop(){ if(timer){ clearInterval(timer); timer=null; } }
+
+  document.getElementById('gprev').addEventListener('click',function(){ go(i-1); if(playing) start(); });
+  document.getElementById('gnext').addEventListener('click',function(){ go(i+1); if(playing) start(); });
+  pz.addEventListener('click',function(){
+    playing=!playing;
+    pz.textContent=playing?'일시정지':'재생';
+    if(playing) start(); else stop();
+  });
   render(); start();
+})();
+
+/* FAB */
+(function(){
+  var fab=document.getElementById('fab'), main=document.getElementById('fabMain'), back=document.getElementById('fabBack');
+  function set(open){
+    fab.classList.toggle('on',open);
+    back.classList.toggle('on',open);
+    main.setAttribute('aria-expanded',open?'true':'false');
+    main.setAttribute('aria-label',open?'메뉴 닫기':'메뉴 열기');
+  }
+  main.addEventListener('click',function(){ set(!fab.classList.contains('on')); });
+  back.addEventListener('click',function(){ set(false); });
+  fab.querySelectorAll('.fab-item a').forEach(function(a){ a.addEventListener('click',function(){ set(false); }); });
+  window.__closeFab=function(){ set(false); };
+})();
+
+/* 예약 모달 */
+(function(){
+  var modal=document.getElementById('resModal');
+  var formPane=document.getElementById('resFormPane'), donePane=document.getElementById('resDonePane');
+  var iName=document.getElementById('iName'), iTel=document.getElementById('iTel');
+  var iDate=document.getElementById('iDate'), iTime=document.getElementById('iTime'), iPax=document.getElementById('iPax');
+  var DAY=['일','월','화','수','목','금','토'];
+  var smsLink='', msgText='';
+
+  /* 마감: 평일 익일 01시(25), 주말·공휴일 익일 02시(26) */
+  function closeHour(dow){ return (dow===0||dow===6)?26:25; }
+  function pad(n){ return (n<10?'0':'')+n; }
+
+  function buildDates(){
+    iDate.innerHTML='';
+    var now=new Date();
+    for(var i=0;i<7;i++){
+      var d=new Date(now.getFullYear(),now.getMonth(),now.getDate()+i);
+      var lbl=(d.getMonth()+1)+'월 '+d.getDate()+'일('+DAY[d.getDay()]+')';
+      if(i===0) lbl='오늘 · '+lbl;
+      if(i===1) lbl='내일 · '+lbl;
+      var o=document.createElement('option');
+      o.value=d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+      o.textContent=lbl;
+      iDate.appendChild(o);
+    }
+  }
+
+  function buildTimes(){
+    var v=iDate.value.split('-');
+    var d=new Date(+v[0],+v[1]-1,+v[2]);
+    var now=new Date();
+    var isToday=(d.toDateString()===now.toDateString());
+    var minM=isToday?(now.getHours()*60+now.getMinutes()+5):-1;
+
+    iTime.innerHTML='<option value="">시간을 선택해 주세요</option>';
+    var end=closeHour(d.getDay())*60, count=0;
+    for(var m=8*60;m<=end-30;m+=30){
+      if(isToday && m<minM) continue;
+      var h=Math.floor(m/60), mm=m%60;
+      var o=document.createElement('option');
+      o.value=pad(h%24)+':'+pad(mm)+(h>=24?'|익일':'');
+      o.textContent=pad(h%24)+':'+pad(mm)+(h>=24?' (새벽)':'');
+      iTime.appendChild(o); count++;
+    }
+    if(!count){
+      var o2=document.createElement('option');
+      o2.value=''; o2.textContent='오늘은 예약 가능한 시간이 없습니다';
+      iTime.appendChild(o2);
+    }
+  }
+
+  function tickNow(){
+    var n=new Date();
+    document.getElementById('nowTime').textContent=pad(n.getHours())+':'+pad(n.getMinutes());
+  }
+
+  function open(){
+    buildDates(); buildTimes(); tickNow();
+    formPane.hidden=false; donePane.hidden=true;
+    ['fName','fTel','fTime'].forEach(function(id){ document.getElementById(id).classList.remove('bad'); });
+    modal.classList.add('on');
+    document.body.style.overflow='hidden';
+    setTimeout(function(){ iName.focus(); },260);
+  }
+  function close(){
+    modal.classList.remove('on');
+    document.body.style.overflow='';
+  }
+
+  document.getElementById('fabBook').addEventListener('click',function(){ if(window.__closeFab) window.__closeFab(); open(); });
+  document.getElementById('heroBook').addEventListener('click',open);
+  document.getElementById('bandBook').addEventListener('click',open);
+  document.getElementById('resClose').addEventListener('click',close);
+  document.getElementById('resCancel').addEventListener('click',close);
+  modal.addEventListener('click',function(e){ if(e.target===modal) close(); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape' && modal.classList.contains('on')) close(); });
+  iDate.addEventListener('change',buildTimes);
+  setInterval(tickNow,20000);
+
+  iTel.addEventListener('input',function(){
+    var d=iTel.value.replace(/[^0-9]/g,'').slice(0,11);
+    if(d.length<4) iTel.value=d;
+    else if(d.length<8) iTel.value=d.slice(0,3)+'-'+d.slice(3);
+    else iTel.value=d.slice(0,3)+'-'+d.slice(3,7)+'-'+d.slice(7);
+  });
+
+  document.getElementById('resSubmit').addEventListener('click',function(){
+    var ok=true;
+    function mark(id,bad){ document.getElementById(id).classList.toggle('bad',bad); if(bad) ok=false; }
+    mark('fName', iName.value.trim().length<2);
+    mark('fTel',  iTel.value.replace(/[^0-9]/g,'').length<10);
+    mark('fTime', !iTime.value);
+    if(!ok) return;
+
+    var dTxt=iDate.options[iDate.selectedIndex].textContent.replace(/^(오늘|내일) · /,'');
+    var tp=iTime.value.split('|');
+    var tTxt=tp[0]+(tp[1]?' (익일 새벽)':'');
+
+    msgText='[프렌즈스크린 원주일산점 예약 신청]\n'+
+      '이름: '+iName.value.trim()+'\n'+
+      '연락처: '+iTel.value+'\n'+
+      '방문 날짜: '+dTxt+'\n'+
+      '방문 시간: '+tTxt+'\n'+
+      '인원: '+iPax.value;
+
+    var isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent);
+    smsLink='sms:'+SHOP_TEL+(isIOS?'&':'?')+'body='+encodeURIComponent(msgText);
+
+    document.getElementById('msgBox').textContent=msgText;
+    formPane.hidden=true; donePane.hidden=false;
+    donePane.parentNode.scrollTop=0;
+
+    if(/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)){
+      setTimeout(function(){ window.location.href=smsLink; },150);
+    }
+  });
+
+  document.getElementById('openSms').addEventListener('click',function(){ window.location.href=smsLink; });
+
+  document.getElementById('copyMsg').addEventListener('click',function(){
+    var btn=this;
+    function done(){ btn.textContent='복사됐습니다'; setTimeout(function(){ btn.textContent='내용 복사'; },1800); }
+    function fallback(){
+      var ta=document.createElement('textarea');
+      ta.value=msgText; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.select();
+      try{ document.execCommand('copy'); done(); }catch(e){}
+      document.body.removeChild(ta);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(msgText).then(done,fallback);
+    } else fallback();
+  });
 })();
 </script>
 </body>

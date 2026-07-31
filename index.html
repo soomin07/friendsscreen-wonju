@@ -320,7 +320,8 @@ footer{background:#100c09;border-top:1px solid rgba(255,255,255,.06);padding:70p
 @media (max-width:1000px){
   .alt,.use,.loc{grid-template-columns:1fr;gap:36px}
   .alt.flip .alt-img{order:0}
-  .feats{grid-template-columns:1fr 1fr}
+  .feats{grid-template-columns:1fr}   /* 카드 3개 → 2열이면 빈 칸이 생기므로 1열로 */
+  .feat{padding:30px 26px}
   .f-top{grid-template-columns:1fr 1fr}
   .pgrp{grid-template-columns:1fr;gap:20px}
 }
@@ -329,7 +330,8 @@ footer{background:#100c09;border-top:1px solid rgba(255,255,255,.06);padding:70p
   .burger{display:block}
   .hd-tel small{display:none}
   section{padding:76px 0}
-  .feats,.plist{grid-template-columns:1fr 1fr}
+  .plist{grid-template-columns:1fr 1fr}
+  .feats{margin-top:56px}
   .f-top{grid-template-columns:1fr;gap:32px}
   .hero-body{padding:56px 0}
   .hero{min-height:88vh}
@@ -343,6 +345,7 @@ footer{background:#100c09;border-top:1px solid rgba(255,255,255,.06);padding:70p
   .garrow{width:36px;height:36px}
   .garrow.p{left:10px}.garrow.n{right:10px}
   .irow{grid-template-columns:1fr;gap:6px}
+  .loc-btns{grid-template-columns:1fr}
   .band{height:300px}
   .grain{background-size:120px 120px}
   .sh-hd{padding:22px 20px 16px}
